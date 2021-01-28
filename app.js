@@ -1,5 +1,21 @@
-// import functions and grab DOM elements
 
-// initialize state
+const form = document.querySelector('form');
 
-// set event listeners to update state and DOM
+form.addEventListener('submit', (e) => {
+    e.preventDefault(); //stops ancient behavior of form
+
+    const formData = new FormData(form);
+
+    const user = {
+        name: formData.get('name'),
+        placeholder: formData.get('job'),
+        health: 100,
+        currency: 1000,
+        completed: {},
+    };
+
+    const stringUser = JSON.stringify(user);
+    localStorage.setItem('USER', stringUser);
+
+    window.location = './map';
+});
