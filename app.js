@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
 
     const user = {
         name: formData.get('name'),
-        placeholder: formData.get('job'),
+        occupation: formData.get('occupation'),
         health: 100,
         currency: 1000,
         completed: {},

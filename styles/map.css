@@ -1,0 +1,14 @@
+.map-page{
+    background-image: url('https://oldschool.runescape.wiki/images/8/8a/World_map_in-game.png?bfb40');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 700px;
+}
+
+.map-title{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.45);
+    border: solid 2px black;
+}
