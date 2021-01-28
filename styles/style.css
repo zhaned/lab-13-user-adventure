@@ -30,6 +30,33 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.start {
+    display: block;
+    align-items: flex-end;
+    color:blue;
+}
+
+.sprite{
+    height: 40px;
+
+}
+
+.sprite:hover{
+    height: 40px;
+    display: none;
+}
+
+.gif:hover{
+    height: 40px;           
+}
+
 section {
     background-color: var(--color5);
     width: 1000px;
