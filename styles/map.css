@@ -3,12 +3,14 @@
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
-    height: 700px;
+    height: 750px;
+    background-color: rgba(0,0,0,0.75);
 }
 
 .map-title{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgba(255,255,255,0.45);
     border: solid 2px black;
 }
