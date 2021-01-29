@@ -28,13 +28,27 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+
 }
+
+.front-page{
+    background-image: url('https://imgcache.rune-server.ee/1474466acbeaae13ea4e3beeafbd9d8698a02341/687474703a2f2f692e696d6775722e636f6d2f527373375a30552e706e67');
+    background-size: 65%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.9);
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+
 
 label {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .start {
@@ -44,22 +58,15 @@ label {
 }
 
 .sprite{
-    height: 40px;
-
-}
-
-.sprite:hover{
-    height: 40px;
-    display: none;
-}
-
-.gif:hover{
-    height: 40px;           
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 section {
-    background-color: var(--color5);
-    width: 1000px;
+    width: 290px;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -69,7 +76,12 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+
+}
+
+.front-section{
+    background-color: rgba(255,255,255,0.45);
+    border: solid 2px black;
 }
 
 header {
@@ -89,8 +101,9 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .gutter-right {
@@ -105,7 +118,13 @@ header img {
     height: var(--header-height);
 }
 
-
+.start{
+    color:rgb(180, 100, 47);
+    background-color: rgb(83, 83, 83);
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 content {
     width: 80%;
